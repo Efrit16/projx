@@ -1,0 +1,31 @@
+.content{
+    display: grid;
+    grid-template-rows: auto;
+    text-align: start;
+}
+.container{
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+    border: groove;
+}
+
+  
+ 
+
+.insidesplit{
+    display: grid;
+   grid-template-columns: 1200px 1fr;
+
+}
+.left{
+    
+    border-style: hidden;
+    
+}
+.right{
+    border-style: hidden;
+    
+}

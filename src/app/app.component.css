@@ -1,0 +1,15 @@
+main{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 300px 1fr;
+  }
+  
+  .left{
+  padding: 10px;
+  
+  }
+  .right{
+  
+  
+  padding: 25px;
+  }

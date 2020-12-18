@@ -1,0 +1,63 @@
+<div class="container1">
+    <h4>
+    <mat-form-field appearance="fill">
+     
+     <mat-label>Domain</mat-label>
+     <div class="space11"></div>
+      <select matNativeControl required>
+        <option value="SE">SE</option>
+        <option value="RE">RE</option>
+        <option value="CE">CE</option>
+        <option value="Business">Business</option>
+      </select>
+    </mat-form-field>
+    </h4>
+    
+     <h4>
+    
+    <mat-form-field appearance="fill">
+      <mat-label>Location</mat-label>
+      <div class="space11"></div>
+      <select matNativeControl required>
+        <option value="Tunis">Tunis</option>
+        <option value="Bizerte">Bizerte</option>
+        <option value="Ariana">Ariana</option>
+        <option value="Lac">Lac</option>
+      </select>
+    </mat-form-field>
+    </h4>
+    <h4>
+      <mat-form-field appearance="fill">
+        <mat-label>Deadline</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      
+      </h4>
+      <h4>
+      <mat-form-field appearance="fill">
+       
+          <mat-label>Duration</mat-label>
+          <div class="space11"></div>
+           <select matNativeControl required>
+             <option value="1month">1month</option>
+             <option value="2months">2months</option>
+             <option value="15days">15days</option>
+             <option value="6months">6months</option>
+           </select>
+         </mat-form-field>
+      
+      
+      </h4>
+      <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+        <input type="text" placeholder="Search.." name="search2">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <div class="space11"></div>
+      <h4>
+      <a mat-raised-button color="accent"> Filter</a>
+    </h4>
+    
+    </div>
+    
