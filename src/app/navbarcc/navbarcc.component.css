@@ -1,3 +1,11 @@
+.mat-toolbar{
+background-color: #0E4754;
+color: white;
+}
+
+.menu-tag:hover{
+    text-decoration: underline;
+}
 .spacer {
     flex: 0.05;
 }
@@ -5,4 +13,8 @@
 .spacer2{
 
     flex: 1.5;
+}
+
+.account-button{
+    background-color: chocolate;
 }
